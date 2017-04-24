@@ -4,9 +4,11 @@
 
 We developed functional disease-associated SNPs prediction (FDSP), a toolkit for predicting disease risk SNPs. Our tools includes two parts: pre-processing pipeline and FDSP package in R.
 
-Several scripts consist of pre-processing pipeline. These pipeline perform calculating linkage disequilibrium(LD) and minor allele frequency(MAF), creating positive dataset and negative dataset according to lead SNPs of diseases, and annotating SNPs with epigenetics elements.
+Several scripts consist of pre-processing pipeline. These scripts perform calculating linkage disequilibrium(LD) and minor allele frequency(MAF), creating positive dataset and negative dataset according to lead SNPs of diseases, and annotating SNPs with epigenetics elements.
 
 FDSP package includes three sections: training set and test set creation, training prediction model with machine learning algorithm, and disease-associated SNPs prediction.
+
+FDSP is open source and can be run on different platforms.
 
 # Author
 
